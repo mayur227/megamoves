@@ -1,0 +1,36 @@
+// Mixins Function
+// --------------------------
+
+@mixin Transition($sec){
+    transition: $sec;
+    -webkit-transition: $sec;
+    -moz-transition: $sec;
+    -o-transition: $sec;
+}
+
+@mixin Remixicon($content, $color, $top, $left) {
+    content: $content;
+    font-family: "remixicon" !important;
+    position: absolute;
+    color: $color;
+    top: $top;
+    left: $left;
+    height: auto;
+    line-height: initial;
+    @include Transition(0.3s);
+}
+
+@mixin displayFlex($display, $alignitems, $justifycontent) {
+    display: $display;
+    align-items: $alignitems;
+    justify-content: $justifycontent;
+}
+@mixin circle($size, $radius, $circlecolor) {
+    width: $size;
+    height: $size;
+    min-width: $size;
+    min-height: $size;
+    border-radius: $radius;
+    background-color: $circlecolor;
+}
+//@include circle(100px, 50%, $light-white)

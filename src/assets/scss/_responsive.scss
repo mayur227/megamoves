@@ -1,0 +1,420 @@
+
+@media (min-width: 1400px) {
+    .home-banner-title{
+        max-width: 550px;
+        h1{
+            font-size: 64px;
+        }
+    }
+    .home-banner-img{
+        max-width: 580px;
+        &.home-banner-img-1{
+            max-width: 580px;
+        }
+    }
+    .jobs-banner-img{
+        margin-right: -60px;
+    }
+}
+@media (max-width: 1399.98px) {
+    // .home-banner-part{
+    //     min-height: 800px;
+    // }
+}
+@media (max-width: 1199.98px) {
+    .ptb120 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .app-download-img{
+        max-width: 350px;
+        margin: auto;
+    }
+    .easy-everyone-block{
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 991.98px) {
+    .ptb120{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .pt120{
+        padding-top: 80px;
+    }
+    .pb120{
+        padding-bottom: 80px;
+    }
+    .ptb100{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt100{
+        padding-top: 70px;
+    }
+    .pb100{
+        padding-bottom: 70px;
+    }
+    .ptb80{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pt80{
+        padding-top: 60px;
+    }
+    .pb80{
+        padding-bottom: 60px;
+    }
+    .ptb60{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .pt60{
+        padding-top: 40px;
+    }
+    .pb60{
+        padding-bottom: 40px;
+    }
+    
+    .section-title {
+        margin-bottom: 40px;
+    }
+    .dnl-official-app .dnl-app-inner::before, .dnl-official-app .dnl-app-inner::after{display: none;}
+    .dnl-official-app{
+        max-width: 90%;
+        .dnl-app-inner{
+            border-radius: 15px 15px 0 0;
+            padding: 25px 30px;
+            text-align: center;
+        }
+    }
+    .home-banner-title{
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    .home-banner-img {
+        max-width: 440px;
+        margin: 30px auto 0;
+    }
+    .home-banner-title h1, .full-banner-part .full-banner-left h1{
+        font-size: 50px;
+    }
+    .dnl-app-from {
+        margin-left: 0px;
+        .form-group{
+            margin: 0 15px;
+            margin-left: 0;
+        }
+    }
+    .dnl-official-app .dnl-app-inner{
+        h3{
+            max-width: 100%;
+            min-width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+    .winners-slider-view{
+        padding:0;
+    }
+    .easy3step-left{
+        display: block;
+        img{width: 100%;}
+    }
+    .easy-everyone-block {
+        max-width: 300px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 1px;
+            background-color: #ccc;
+        }
+    }
+    .app-download-img{
+        max-width: 300px
+    }
+    .app-download-section .app-download-right h4{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .app-preview{
+        border-radius: 70px 70px 0px 0px;
+    }
+    .footer-link{
+        margin: 0;
+        li {
+            flex: 0 0 50%;
+        }
+    }
+    .footer-link li.footer-logo a{
+        max-width: 130px;
+    }
+    .footer-link li a{
+        padding: 6px 5px;
+    }
+    .news-block .news-block-img{
+        height: 140px;
+    }
+    .full-banner-part .full-banner-left {
+        max-width: 480px;
+    }
+    .full-banner-img {
+        max-width: 380px;
+        margin: auto;
+    }
+    .s-col-img {
+        max-width: 380px;
+    }
+    .benefits-blck span{
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        left: -20px;
+    }
+    .how-ply-left{
+        margin-bottom: 30px;
+    }
+    .how-ply-right > h3{text-align: center;}
+    .winnercard-view .winners-block .winners-img{
+        width: 80px;
+        height: 80px;
+        border: 2px solid #FFFFFF;
+    }
+}
+@media (max-width: 767.98px) {
+    .dnl-official-app .dnl-app-inner{
+        padding: 20px 30px;
+    }
+    .dnl-app-from .form-group{
+        margin: 0 0 20px;
+    }
+    .footer-contact li{
+        margin: 12px 0px;
+    }
+    .footer-logo{
+        max-width: 130px;
+        margin: 20px auto 0;
+    }
+    .logo-part {
+        max-width: 190px;
+        position: relative;
+        top: -5px;
+    }
+    .header-right{
+        .btn-theme{
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+    }
+    .news-block .news-block-img {
+        height: 220px;
+    }
+    .op-blck h5{
+        min-height: inherit;
+    }
+    .download-app-modal .ant-modal-close {
+        inset-inline-end: 80px;
+        top: 25px;
+    }
+    .download-app-modal {
+        .ant-modal-header{
+            max-width: 380px;
+        }
+        .dnl-app-from .form-group{
+            margin-right: 15px;
+        }
+        .dnl-app-from .form-control{
+            min-width: 230px;
+        }
+    }
+    .banner-part {
+        padding-top: 75px;
+    }
+    .points-right-img{
+        text-align: center;
+    }
+    .home-banner-title{
+        text-align: center;
+    }
+    .app-preview {
+        border-radius: 50px 50px 0px 0px;
+    }
+    .full-banner-left, .jobs-make-block, .app-download-section .app-download-right h4{
+        text-align: center;
+    }
+    .w-search-hide{
+        display: none;
+        &.show{
+            display: block;
+        }
+    }
+    .winners-filter{
+        .btn-theme{min-width: 50%;}
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ptb120{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pt120{
+        padding-top: 60px;
+    }
+    .pb120{
+        padding-bottom: 60px;
+    }
+    .home-wrapper .logo-part {
+        max-width: 220px;
+    }
+    .home-banner-part{
+        min-height: 100%;
+        padding-bottom: 200px;
+    }
+    .home-banner-part, .full-banner-part{
+        padding-top: 75px;
+    }
+    .home-slider-part {
+        padding: 40px 0;
+    }
+    .home-banner-title, .full-banner-part .full-banner-left {
+        h1{
+            font-size: 34px;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+    .home-banner-img {
+        max-width: 240px;
+        margin: 20px auto 0;
+    }
+    .dnl-official-app .dnl-app-inner{
+        padding: 15px;
+    }
+    .dnl-official-app .dnl-app-inner{
+        h3{font-size: 22px}
+    }
+    .section-title {
+        h2{
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+    }
+    .easy3step-right li{
+        margin-left: 0 !important;
+    }
+    .easy3step-left button{
+        font-size: 36px;
+        width: 48px;
+        height: 48px;
+    }
+    .app-preview .app-preview-slider{
+        &::before, &::after{
+            display: none;
+        }
+    }
+    .footer-link{
+        li{
+            flex: 0 0 100%;
+        }
+    }
+    .footer-link li a {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .journey-tab-part{
+        .ant-tabs{
+            display: block;
+        }
+    }
+    .journey-tab-part .ant-tabs-left {
+        .ant-tabs-nav {
+            min-width: 100%;
+            max-width: 100%;
+        }
+        .ant-tabs-tab{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .journey-tab-img{
+            margin: 30px auto 0;
+        }
+    }
+    .download-app-modal {
+        .ant-modal-header {
+            max-width: 300px;
+        }
+        .ant-modal-header .ant-modal-title{
+            font-size: 25px;
+            padding-right: 35px;
+            line-height: 1;
+        }
+        .dnl-app-from .form-group{
+            margin-right: 0;
+            margin-bottom: 20px !important;
+        }
+        .dnl-app-from .btn-theme{
+            margin: auto;
+            display: block;
+        }
+        .ant-modal-body{
+            padding: 20px;
+        }
+    }
+    .page-title {
+        padding: 0;
+        .page-title-inner{
+            &::before, &::after{
+                display: none;
+            }
+        }
+        h2{
+            font-size: 32px;
+        }
+    }
+    .how-ply-left {
+        margin-bottom: 15px;
+    }
+    .winnercard-view .winners-block{
+        padding: 12px;
+    }
+    .winnercard-view .winners-block .winners-img{
+        top: -35px
+    }
+    .winnercard-view .winners-block h6{
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .winnercard-view .winners-block .winners-price{
+        font-size: 18px;
+    }
+}
+@media (max-width: 479.98px) {
+    .download-app-modal .ant-modal-header{
+        max-width: 180px;
+        .ant-modal-title{
+            font-size: 20px;
+        }
+    }
+    .help-center-input {
+        .form-control{
+            padding: 18px 110px 19px 48px;
+        }
+        .btn-theme{
+            min-width: 100px;
+        }
+    }
+}
+@media (max-width: 374.98px) {
+    
+}
+@media (max-width: 349.98px) {
+
+}

@@ -59,7 +59,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className='ptb120'>
+            <div className='ptb100'>
                 <div className="container">
                     <div className="row align-items-center flex-lg-row-reverse">
                         <div className="col-lg-6">
@@ -78,7 +78,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt40 pb120'>
+            <div className='pt40 pb100'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
@@ -116,7 +116,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="ptb120">
+            <div className="ptb100">
                 <div className="container">
                     <div className="section-title text-center">
                         <h2><span className='text-primary-color'>What</span> makes us best</h2>
@@ -146,7 +146,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className='ptb120 bg-gray-light-2'>
+            <div className='ptb100 bg-gray-light-2'>
                 <div className="container">
                     <div className="section-title text-center text-md-start">
                         <h2><span className='text-primary-color'>Journey </span>so far</h2>
@@ -201,7 +201,7 @@ const AboutUs = () => {
                 
             </div>
 
-            <div className='pt120 pb80'>
+            <div className='pt100 pb80'>
                 <div className="container">
                     <div className="section-title text-center">
                         <h2><span className='text-primary-color'>Meet</span> Our Team</h2>
@@ -256,7 +256,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='ptb120 bg-gray-light-2'>
+            <div className='ptb100 bg-gray-light-2'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

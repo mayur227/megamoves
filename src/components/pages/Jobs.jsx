@@ -38,7 +38,7 @@ const Jobs = () => {
                     </div>
                 </div>
             </div>
-            <div className='ptb120'>
+            <div className='pb100'>
                 <div className="container">
                     <div className="row align-items-center flex-lg-row-reverse">
                         <div className="col-lg-6">
@@ -88,7 +88,7 @@ const Jobs = () => {
                     </div>
                 </div>
             </div>
-            <div className='ptb120 bg-gray-light-2'>
+            <div className='pb100 bg-gray-light-2'>
                 <div className="container">
                     <div className="section-title text-center">
                         <h2><span className='text-primary-color'>Benefits</span> of being with us</h2>
@@ -133,7 +133,7 @@ const Jobs = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt120 pb80'>
+            <div className='pb100 pb80'>
                 <div className='op-layout'>
                     <div className="container">
                         <div className="section-title text-center">

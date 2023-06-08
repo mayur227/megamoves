@@ -22,18 +22,7 @@ const CommunityGuidelines = () => {
             <div className='pt-4 pb60'>
                 <div className="container">
                     <div className='row'>
-                        <div className='col-lg-4 col-xl-3'>
-                            <div className="how-ply-left">
-                                <div className="how-ply-topic">
-                                    <ul>
-                                        <li><Link to={'/community-guidelines'} className='active'>Community Guidelines</Link></li>
-                                        <li><Link to={'/privacy-policy'}>Privacy Policy</Link></li>
-                                        <li><Link to={'/terms-conditions'}>Terms & Conditions</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-lg-8 col-xl-9'>
+                        <div className='col-12'>
                             <div className="content-right content-text">
                                 <p>Dream11 is the flagship brand of Sporta Technologies Private Limited (“Dream11” or “We”). Dream11 is committed to creating a safe and open environment for expression and give people a voice on its social communities available on the Dream11 website and mobile app (“Dream11 Platform”). Through these communities, you can post, comment, vote, discuss, learn, debate, support and connect with people who share your interests. These guidelines (“Community Guidelines”), set out below provide general guidance and an overview of what is and what is not allowed on the Dream11 Platform. These Community Guidelines apply to any content uploaded, hosted, transmitted or otherwise made available or communicated on our platform (“Content”). Use of the Dream11 Platform constitutes the user’s acceptance of these Community Guidelines as may be amended from time to time. Dream11 may, at its sole discretion, also notify the user of any change or modification in these Community Guidelines, by way of sending an email to the user’s registered email address or posting notifications on the Dream11 Platform. By using Dream11, you agree to these guidelines and our Terms of Use and Privacy Policy. We are committed to these Community Guidelines and we require you to be committed too. Violation of these Community Guidelines may result in deleted content, disabled accounts, or other restrictions including a complete ban from the Dream11 Platform. We may also notify law enforcement when we believe that there is a genuine risk of physical harm or a direct threat to public safety. Any action or decision taken by Dream11 for violation of these Community Guidelines shall be at Dream11’s sole discretion. Dream11 has sought to make these Community Guidelines as detailed as possible, however, this is not an exhaustive list of policies and all Content, if reported, shall be analysed independently based on the parameters mentioned in these Community Guidelines. We urge you that if you find Content that indirectly or directly violates these Community Guidelines, please report it to Dream11 in the manner set forth herein.</p>
                                 <h5>Prohibited Content :</h5>

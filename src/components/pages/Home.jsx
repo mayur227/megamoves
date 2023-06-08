@@ -5,10 +5,10 @@ import { Input, Collapse, Space } from 'antd';
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 
-import bannerSlider1 from '../../assets/images/home/banner-slider-img-1.png';
-import bannerSlider2 from '../../assets/images/home/banner-slider-img-2.png';
-import bannerSlider3 from '../../assets/images/home/banner-slider-img-3.png';
-import bannerSlider4 from '../../assets/images/home/banner-slider-img-4.png';
+import bannerSlider1 from '../../assets/images/home/banner-slider-img-1.svg';
+import bannerSlider2 from '../../assets/images/home/banner-slider-img-2.svg';
+import bannerSlider3 from '../../assets/images/home/banner-slider-img-3.svg';
+import bannerSlider4 from '../../assets/images/home/banner-slider-img-4.svg';
 import easy3step from '../../assets/images/easy-3step.png';
 import easyeveryone1 from '../../assets/images/easy-everyone-1.svg';
 import easyeveryone2 from '../../assets/images/easy-everyone-2.svg';
@@ -100,10 +100,10 @@ const Home = () => {
                     <Swiper 
                         modules={[Autoplay]}
                         slidesPerView={1}
-                        // autoplay={{
-                        //     delay: 3000,
-                        //     disableOnInteraction: false
-                        // }}
+                        autoplay={{
+                            delay: 4000,
+                            disableOnInteraction: false
+                        }}
                     >
                         <SwiperSlide>
                             <div className="container">

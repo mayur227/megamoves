@@ -17,7 +17,7 @@ const Footer = (props) => {
                                 <ul className='d-sm-flex flex-sm-wrap align-items-sm-center text-sm-center'>
                                     <li><Link to='/'>Home</Link></li>
                                     <li><Link to='/about-us'>About Us</Link></li>
-                                    <li><Link to='/community-guidelines-detail'>Community Guidelines</Link></li>
+                                    <li><Link to='/community-guidelines'>Community Guidelines</Link></li>
                                     <li><Link to='/disclaimer'>Disclaimer</Link></li>
                                     <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                                     <li><Link to='/terms-conditions'>Terms & Conditions</Link></li>
@@ -28,8 +28,8 @@ const Footer = (props) => {
                             <div className='footer-link'>
                             <ul className='d-sm-flex flex-sm-wrap align-items-sm-center text-sm-center'>
                                     <li><Link to='/how-to-play'>How to Play</Link></li>
-                                    <li><Link to='/point-calculations' target="_blank">point calculations</Link></li>
-                                    <li><Link to='/help-center' target="_blank">help center</Link></li>
+                                    <li><Link to='/point-calculations'>point calculations</Link></li>
+                                    <li><Link to='/help-center'>help center</Link></li>
                                     <li><Link to='/our-winners'>MegaMoves Winners</Link></li>
                                     <li><a role='button'>Offers & Rewards</a></li>
                                     <li><Link to='/help-center'>Jobs</Link></li>
@@ -46,11 +46,11 @@ const Footer = (props) => {
                     </div>
                     <div className='social-icons mt-4 mb-4'>
                         <ul className='d-flex justify-content-center align-items-center'>
-                            <li><a role={'button'}><i className="ri-facebook-fill"></i></a></li>
-                            <li><a role={'button'}><i className="ri-instagram-line"></i></a></li>
-                            <li><a role={'button'}><i className="ri-linkedin-fill"></i></a></li>
-                            <li><a role={'button'}><i className="ri-youtube-fill"></i></a></li>
-                            <li><a role={'button'}><i className="ri-twitter-fill"></i></a></li>
+                            <li><Link to={'https://facebook.com/'} target='_blank'><i className="ri-facebook-fill"></i></Link></li>
+                            <li><Link to={'https://instagram.com/'} target='_blank'><i className="ri-instagram-line"></i></Link></li>
+                            <li><Link to={'https://linkedin.com/'} target='_blank'><i className="ri-linkedin-fill"></i></Link></li>
+                            <li><Link to={'https://youtube.com/'} target='_blank'><i className="ri-youtube-fill"></i></Link></li>
+                            <li><Link to={'https://twitter.com/'} target='_blank'><i className="ri-twitter-fill"></i></Link></li>
                         </ul>
                     </div>
                     <div className='footer-contact'>

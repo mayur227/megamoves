@@ -9,6 +9,7 @@ import megaphone from '../../assets/images/help-center/megaphone.svg';
 import profile from '../../assets/images/help-center/profile.svg';
 import questioncircle from '../../assets/images/help-center/question-circle.svg';
 import suitcase from '../../assets/images/help-center/suitcase.svg';
+import { Link } from 'react-router-dom';
 
 const HelpCenter = (props) => {
 
@@ -42,53 +43,53 @@ const HelpCenter = (props) => {
                 <div className="help-center-list pb80">
                     <div className='row'>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <a role='button' className="help-center-block">
                                 <span><img src={security} className="img-fluid" alt="" /></span>
                                 <p>Account Security</p>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <Link to={'/how-to-play'} className="help-center-block">
                                 <span><img src={gamecontroller} className="img-fluid" alt="" /></span>
                                 <p>How to Play</p>
-                            </div>
+                            </Link>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <a role='button' className="help-center-block">
                                 <span><img src={megaphone} className="img-fluid" alt="" /></span>
                                 <p>What’s New</p>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <a role='button' className="help-center-block">
                                 <span><img src={profile} className="img-fluid" alt="" /></span>
                                 <p>Profile & Verification</p>
-                            </div>
+                            </a>
                         </div>
 
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <a role='button' className="help-center-block">
                                 <span><img src={gift} className="img-fluid" alt="" /></span>
                                 <p>Offers & Rewards</p>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <Link to={'/point-calculations'} className="help-center-block">
                                 <span><img src={questioncircle} className="img-fluid" alt="" /></span>
                                 <p>Points Calculation</p>
-                            </div>
+                            </Link>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <Link to={'/point-calculations'} className="help-center-block">
                                 <span><img src={document} className="img-fluid" alt="" /></span>
                                 <p>Community Guideline</p>
-                            </div>
+                            </Link>
                         </div>
                         <div className='col-12 col-lg-3 col-md-4 col-sm-6'>
-                            <div className="help-center-block">
+                            <a role='button' className="help-center-block">
                                 <span><img src={suitcase} className="img-fluid" alt="" /></span>
                                 <p>Applying for a Job</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

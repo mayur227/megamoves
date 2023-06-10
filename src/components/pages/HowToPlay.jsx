@@ -6,7 +6,6 @@ import hplyimg1 from '../../assets/images/app-previewimg-1.png';
 
 const HowToPlay = () => {
     const { Panel } = Collapse;
-    const breakpoint = 991;
     const [windowwidth, setWindowWidth] = useState(window.innerWidth);
     const handleWindowResize = () => {
         setWindowWidth(window.innerWidth);
@@ -105,133 +104,133 @@ const HowToPlay = () => {
                                 :
                                 // Mobile section
                                 <div className="how-ply-collapse pb60">
-                                <Collapse 
-                                    accordion 
-                                    defaultActiveKey={['1']} 
-                                    //expandIcon={({ isActive }) => isActive ? <i className="ri-arrow-up-s-fill"></i> : <i className="ri-arrow-down-s-fill"></i>}
-                                    >
-                                    <Panel header="How to create My Strategy?" showArrow={false} key="1">
-                                        <div className="how-ply-collapse-content">
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
+                                    <Collapse 
+                                        accordion 
+                                        defaultActiveKey={['1']} 
+                                        //expandIcon={({ isActive }) => isActive ? <i className="ri-arrow-up-s-fill"></i> : <i className="ri-arrow-down-s-fill"></i>}
+                                        >
+                                        <Panel header="How to create My Strategy?" showArrow={false} key="1">
+                                            <div className="how-ply-collapse-content">
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-1 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-1 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
-                                                </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-2 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Panel>
-                                    <Panel header="How to participate in Contest?" showArrow={false} key="2">
-                                        <div className="how-ply-collapse-content">
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
-                                                </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-1 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-2 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
+                                        </Panel>
+                                        <Panel header="How to participate in Contest?" showArrow={false} key="2">
+                                            <div className="how-ply-collapse-content">
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-1 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-2 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Panel>
-                                    <Panel header="Lorem ipsum dolor sit amet, consetetur sadiscing?" showArrow={false} key="3">
-                                        <div className="how-ply-collapse-content">
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
-                                                </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-1 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
-                                                </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-2 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-2 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </Panel>
-                                    <Panel header="Lorem ipsum dolor sit amet, consetetur?" showArrow={false} key="4">
-                                        <div className="how-ply-collapse-content">
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
+                                        </Panel>
+                                        <Panel header="Lorem ipsum dolor sit amet, consetetur sadiscing?" showArrow={false} key="3">
+                                            <div className="how-ply-collapse-content">
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-1 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-1 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-2 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="how-ply-collapse-row">
-                                                <div className="how-ply-right-img text-center mb-4">
-                                                    <img src={hplyimg1} className="img-fluid" alt="" />
+                                        </Panel>
+                                        <Panel header="Lorem ipsum dolor sit amet, consetetur?" showArrow={false} key="4">
+                                            <div className="how-ply-collapse-content">
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-1 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div className="how-ply-right-content mb-4">
-                                                    <h6>Step-2 :</h6>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                    <ul className='dots-style'>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                        <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
-                                                    </ul>
+                                                <div className="how-ply-collapse-row">
+                                                    <div className="how-ply-right-img text-center mb-4">
+                                                        <img src={hplyimg1} className="img-fluid" alt="" />
+                                                    </div>
+                                                    <div className="how-ply-right-content mb-4">
+                                                        <h6>Step-2 :</h6>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                                        <ul className='dots-style'>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </Panel>
-                                </Collapse>
-                            </div>
+                                        </Panel>
+                                    </Collapse>
+                                </div>
                             }
                         </div>
                     </div>

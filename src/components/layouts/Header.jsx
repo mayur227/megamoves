@@ -59,7 +59,6 @@ const Header = (props) => {
                         <li><Link to={'/community-guidelines'} onClick={rightbarClose}>COMMUNITY GUIDELINES</Link></li>
                         <li><Link to={'/'} onClick={rightbarClose}>INVITE FRIENDS</Link></li>
                         <li><a role='button' onClick={showModal}>DOWNLOAD APP</a></li>
-                        
                     </ul>
                 </div>
             </Drawer>

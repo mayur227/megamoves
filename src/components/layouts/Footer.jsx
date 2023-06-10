@@ -32,7 +32,7 @@ const Footer = (props) => {
                                     <li><Link to='/help-center'>help center</Link></li>
                                     <li><Link to='/our-winners'>MegaMoves Winners</Link></li>
                                     <li><a role='button'>Offers & Rewards</a></li>
-                                    <li><Link to='/help-center'>Jobs</Link></li>
+                                    <li><Link to='/jobs'>Jobs</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -519,18 +519,18 @@
 
 .app-preview{
     position: relative;
-    background: url('../images/banner-bg.jpg') no-repeat 0 0 / cover;
+    background: url('../images/bg-appscreenshot.svg') no-repeat 0 0 / cover;
     border-radius: 120px 120px 0px 0px;
-    &::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent radial-gradient(closest-side at 50% 50%, #C99E41 0%, #C99E4100 100%);
-        opacity: 0.6;
-    }
+    // &::before{
+    //     content: '';
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: transparent radial-gradient(closest-side at 50% 50%, #C99E41 0%, #C99E4100 100%);
+    //     opacity: 0.6;
+    // }
     .app-preview-inner{
         position: relative;
     }

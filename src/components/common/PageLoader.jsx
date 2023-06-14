@@ -17,8 +17,7 @@ const PageLoader = ({loading}) => {
         <>
             <div className={`preloader ${loading === false ? 'loaded' : ''}`}>
                 <div className="loaderbox">
-                    <Lottie options={loaderoptions} speed={1.5} height={80} width={80} />
-                    <h6>Loading...</h6>
+                    <Lottie options={loaderoptions} speed={1.5} height={65} width={65} />
                 </div>
             </div>
         </>

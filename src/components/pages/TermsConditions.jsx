@@ -27,7 +27,7 @@ const TermsConditions = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-4 pb60'>
+            <div className='pt-lg-4 ptb60'>
                 <div className="container">
                     <div className='row'>
                         {
@@ -66,7 +66,7 @@ const TermsConditions = () => {
                                     </ul>
                                 </div>
                                 :
-                                <div className="how-ply-collapse pb60">
+                                <div className="how-ply-collapse">
                                     <Collapse 
                                         accordion 
                                         defaultActiveKey={['3']} 

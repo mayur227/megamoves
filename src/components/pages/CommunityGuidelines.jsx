@@ -1,12 +1,6 @@
 import React from 'react';
-import { Collapse, Input } from 'antd';
-
-import hplyimg1 from '../../assets/images/app-previewimg-1.png';
-import { Link } from 'react-router-dom';
-
 
 const CommunityGuidelines = () => {
-
 
     return(
         <>
@@ -19,7 +13,7 @@ const CommunityGuidelines = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-4 pb60'>
+            <div className='pt-lg-4 ptb60'>
                 <div className="container">
                     <div className='row'>
                         <div className='col-12'>

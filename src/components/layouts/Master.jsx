@@ -16,17 +16,9 @@ const Master = (props) => {
 
     useEffect(() => {
         setLoading(true);
-
-        setTimeout(() => {
-            setLoading(false);
-        }, 1500);
-        window.scrollTo({
-            top:0,
-            left:0,
-            behavior:"smooth"
-        })
+        setTimeout(() => {setLoading(false);}, 1000);
+        window.scrollTo({ top:0, left:0})
     }, [location]);
-
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [rightbarvisible, setRightbarVisible] = useState(false);

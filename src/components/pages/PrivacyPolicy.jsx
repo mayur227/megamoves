@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-4 pb60'>
+            <div className='pt-lg-4 ptb60'>
                 <div className="container">
                     <div className='row'>
                         {
@@ -34,8 +34,8 @@ const PrivacyPolicy = () => {
                                 <div className="how-ply-left">
                                     <div className="how-ply-topic">
                                         <ul>
-                                            <li><Link to={'/disclaimer'} className='active'>Disclaimer</Link></li>
-                                            <li><Link to={'/privacy-policy'}>Privacy Policy</Link></li>
+                                            <li><Link to={'/disclaimer'}>Disclaimer</Link></li>
+                                            <li><Link to={'/privacy-policy'} className='active'>Privacy Policy</Link></li>
                                             <li><Link to={'/terms-conditions'}>Terms & Conditions</Link></li>
                                         </ul>
                                     </div>
@@ -64,7 +64,7 @@ const PrivacyPolicy = () => {
                                     </ul>
                                 </div>
                                 :
-                                <div className="how-ply-collapse pb60">
+                                <div className="how-ply-collapse">
                                     <Collapse 
                                         accordion 
                                         defaultActiveKey={['2']} 

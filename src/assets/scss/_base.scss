@@ -115,53 +115,14 @@ b, strong{
 }
 .loaderbox {
     background-color: #fff;
-    min-width: 140px;
-    min-height: 140px;
+    min-width: 90px;
+    min-height: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-radius: 6px;
     box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
-}
-.loaderinner{
-    height: 40px;
-    span{
-        $size: 40px;
-        position: relative;
-        top: 10px;
-        width: 8px;
-        height: 40px;
-        border-radius: 4px;
-        display: inline-block;
-        position: relative;
-        background: currentColor;
-        color: var(--primary-color);
-        -webkit-animation: animloader61 0.3s 0.3s linear infinite alternate;
-        animation: animloader61 0.3s 0.3s linear infinite alternate;
-        &:before, &:after{
-            content: "";
-            width: 8px;
-            height: 40px;
-            border-radius: 4px;
-            background: currentColor;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            left: 20px;
-            -webkit-animation: animloader61 0.3s 0.45s linear infinite alternate;
-            animation: animloader61 0.3s 0.45s linear infinite alternate;
-        }
-        &:before{
-            left: -20px;
-            -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-        }
-        @keyframes animloader61 {
-            0% { height: $size;}
-            100% { height: $size / 10;}
-        }
-    }
 }
 
 .loaderbox h6 {

@@ -209,7 +209,7 @@
 .home-banner-part{
     position: relative;
     background: url('../images/home/home-banner.jpg') no-repeat center / cover;
-    min-height: 100vh;
+    min-height: calc(100vh - 2px);
     padding-top: 120px;
     padding-bottom: 130px;
     display: flex;

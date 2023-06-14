@@ -27,7 +27,7 @@ const HowToPlay = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-4'>
+            <div className='pt-lg-4 pb-lg-4 ptb60'>
                 <div className="container">
                     <div className='row'>
                         <div className='col-lg-4 col-xl-4'>

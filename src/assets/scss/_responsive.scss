@@ -441,7 +441,7 @@
     .home-banner-part {
         padding-bottom: 190px;
     }
-    .home-banner-title{
+    .home-banner-title, .full-banner-part .full-banner-left{
         margin-bottom: 10px;
         h1{
             font-size: 28px;
@@ -455,6 +455,9 @@
     }
     .dnl-official-app .dnl-app-inner{
         h3{font-size: 20px}
+    }
+    .full-banner-part{
+        padding-top: 110px
     }
 }
 @media (max-width: 374.98px) {

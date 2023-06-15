@@ -191,15 +191,15 @@
 .full-banner-part{
     padding-top: 120px;
     padding-bottom: 80px;
-    min-height: 700px;
+    min-height: 100vh;
     background: url('../images/banner-bg.jpg') no-repeat center center / cover;
     display: flex;
     align-items: center;
     .full-banner-left{
-        max-width: 430px;
+        max-width: 510px;
         h1{
             font-family: "SFProDisplay-BlackItalic";
-            font-size: 52px;
+            font-size: 48px;
             letter-spacing: 1.28px;
             color: var(--white);
             text-transform: uppercase;
@@ -223,7 +223,7 @@
     max-width: 460px;
     h1{
         font-family: "SFProDisplay-BlackItalic";
-        font-size: 54px;
+        font-size: 48px;
         letter-spacing: 1.28px;
         color: var(--white);
         text-transform: uppercase;

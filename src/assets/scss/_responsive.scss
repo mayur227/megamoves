@@ -3,13 +3,13 @@
     .home-banner-title{
         max-width: 550px;
         h1{
-            font-size: 64px;
+            font-size: 54px;
         }
     }
     .home-banner-img{
-        max-width: 580px;
+        max-width: 530px;
         &.home-banner-img-1{
-            max-width: 580px;
+            max-width: 530px;
         }
     }
     .jobs-banner-img{
@@ -90,17 +90,19 @@
             text-align: center;
         }
     }
+    .home-banner-part{
+        padding-bottom: 170px;
+    }
     .home-banner-title{
         max-width: 500px;
-        margin: auto;
+        margin: 0 auto 25px;
         text-align: center;
     }
     .home-banner-img {
-        max-width: 440px;
         margin: 30px auto 0;
     }
     .home-banner-title h1, .full-banner-part .full-banner-left h1{
-        font-size: 50px;
+        font-size: 42px;
     }
     .dnl-app-from {
         margin-left: 0px;
@@ -219,6 +221,10 @@
     .op-blck h5{
         min-height: inherit;
     }
+    .home-banner-part{
+        padding-top: 95px;
+        padding-bottom: 210px;
+    }
     .download-app-modal .ant-modal-close {
         inset-inline-end: 80px;
         top: 25px;
@@ -241,7 +247,23 @@
         text-align: center;
     }
     .home-banner-title{
+        margin-bottom: 20px;
         text-align: center;
+        h1{
+            margin-bottom: 10px;
+        }
+    }
+    .home-banner-img{
+        max-width: 350px;
+        &.home-banner-img-1 {
+            max-width: 400px;
+        }
+    }
+    .full-banner-part .full-banner-left{
+        max-width: 100%;
+    }
+    .full-banner-img{
+        max-width: 420px;
     }
     .app-preview {
         border-radius: 50px 50px 0px 0px;
@@ -275,26 +297,28 @@
         max-width: 220px;
     }
     .home-banner-part{
-        min-height: 100%;
         padding-bottom: 200px;
     }
     .home-banner-part, .full-banner-part{
         padding-top: 75px;
     }
     .home-slider-part {
-        padding: 40px 0;
+        padding-top: 40px;
     }
     .home-banner-title, .full-banner-part .full-banner-left {
         h1{
-            font-size: 34px;
+            font-size: 32px;
         }
         p{
-            font-size: 22px;
+            font-size: 20px;
         }
     }
     .home-banner-img {
-        max-width: 240px;
+        max-width: 220px;
         margin: 20px auto 0;
+        &.home-banner-img-1{
+            max-width: 240px;
+        }
     }
     .dnl-official-app .dnl-app-inner{
         padding: 15px;
@@ -411,6 +435,26 @@
         .btn-theme{
             min-width: 100px;
         }
+    }
+}
+@media (max-width: 389.98px) {
+    .home-banner-part {
+        padding-bottom: 190px;
+    }
+    .home-banner-title{
+        margin-bottom: 10px;
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .home-slider-part{
+        padding-top: 20px;
+    }
+    .dnl-official-app .dnl-app-inner{
+        h3{font-size: 20px}
     }
 }
 @media (max-width: 374.98px) {

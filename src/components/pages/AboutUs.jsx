@@ -52,7 +52,7 @@ const AboutUs = () => {
                             </div>
                         </div>    
                         <div className="col-md-6 col-xl-7">
-                            <div className="full-banner-img">
+                            <div className="full-banner-img text-center">
                                 <img src={bannerimg} className="img-fluid" alt="" />
                             </div>
                         </div>    

@@ -225,14 +225,16 @@
         padding-top: 95px;
         padding-bottom: 210px;
     }
-    .download-app-modal .ant-modal-close {
+    .header-heading-style .ant-modal-close {
         inset-inline-end: 80px;
         top: 25px;
     }
-    .download-app-modal {
+    .header-heading-style{
         .ant-modal-header{
             max-width: 380px;
         }
+    }
+    .download-app-modal {
         .dnl-app-from .form-group{
             margin-right: 15px;
         }
@@ -279,6 +281,23 @@
     }
     .winners-filter{
         .btn-theme{min-width: 50%;}
+    }
+
+    .dist-register-modal .ant-modal-body {
+        padding: 15px;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .dist-register-modal .ant-modal-close{
+        inset-inline-end: 60px;
+    }
+    .dist-main-steps .ant-steps {
+        gap: 8px;
+    }
+    .dist-main-steps .ant-steps .ant-steps-item .ant-steps-item-container{
+        padding: 12px 8px;
+    }
+    .dist-main-steps .ant-steps .ant-steps-item .ant-steps-item-container .ant-steps-item-content .ant-steps-item-title{
+        font-size: 13px;
     }
 }
 
@@ -372,7 +391,7 @@
             margin: 30px auto 0;
         }
     }
-    .download-app-modal {
+    .header-heading-style{
         .ant-modal-header {
             max-width: 300px;
         }
@@ -381,6 +400,8 @@
             padding-right: 35px;
             line-height: 1;
         }
+    }
+    .download-app-modal {
         .dnl-app-from .form-group{
             margin-right: 0;
             margin-bottom: 20px !important;
@@ -422,8 +443,8 @@
     }
 }
 @media (max-width: 479.98px) {
-    .download-app-modal .ant-modal-header{
-        max-width: 180px;
+    .header-heading-style .ant-modal-header{
+        max-width: 240px;
         .ant-modal-title{
             font-size: 20px;
         }

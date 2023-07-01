@@ -2,6 +2,7 @@ import AboutUs from "../pages/AboutUs";
 import CommunityGuidelines from "../pages/CommunityGuidelines";
 import CommunityGuidelinesDetail from "../pages/CommunityGuidelinesDetail";
 import Disclaimer from "../pages/Disclaimer";
+import Distributor from "../pages/Distributor";
 import Faqs from "../pages/Faqs";
 import HelpCenter from "../pages/HelpCenter";
 import Home from "../pages/Home";
@@ -100,7 +101,12 @@ const routes = [
         ActiveMenuKey: ['key12'],
         component   : <AboutUs title="About Us"/>
     },
-
+    {
+        path    :   "/distributor",
+        exact   :   true,
+        ActiveMenuKey: ['key13'],
+        component   : <Distributor title="Distributor"/>
+    },
     {
         path    :   "/sitemap",
         exact   :   true,
